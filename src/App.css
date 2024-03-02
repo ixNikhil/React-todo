@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  list-style: none;
+  border-bottom: 1px solid #666;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.todo-item span {
+  flex-grow: 1;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.add-todo-form {
+  margin-top: 20px;
+}
+
+.add-todo-form input[type="text"] {
+  padding: 10px;
+  width: calc(100% - 90px);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  background-color: #444;
+  color: #fff;
+}
+
+.add-todo-form button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #8758ff; 
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  box-shadow: 0 0 20px rgba(135, 88, 255, 0.5); 
+}
+
+.add-todo-form button:hover {
+  background-color: #a56dff; 
+}
+
+.update-btn, .cancel-btn, .delete-btn, .edit-btn {
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.update-btn {
+  background-color: #33cc33; 
+  color: #fff;
+}
+
+.cancel-btn {
+  background-color: #ff1a1a;
+  color: #fff;
+}
+
+.delete-btn {
+  background-color: #ff5733;
+  color: #fff;
+}
+
+.edit-btn {
+  background-color: #a56dff; 
+  color:#fff;
+}
